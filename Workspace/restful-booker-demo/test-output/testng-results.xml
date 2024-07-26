@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-26T15:10:26 EDT" name="Default suite" finished-at="2024-07-26T15:10:32 EDT" duration-ms="5547">
+    <groups>
+    </groups>
+    <test started-at="2024-07-26T15:10:26 EDT" name="Default test" finished-at="2024-07-26T15:10:32 EDT" duration-ms="5547">
+      <class name="com.justinbett.restful_booker_demo.HelloWorld">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.justinbett.restful_booker_demo.HelloWorld@57a78e3]" started-at="2024-07-26T15:10:26 EDT" name="setup" finished-at="2024-07-26T15:10:32 EDT" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="StartProject()[pri:0, instance:com.justinbett.restful_booker_demo.HelloWorld@57a78e3]" started-at="2024-07-26T15:10:32 EDT" name="StartProject" finished-at="2024-07-26T15:10:32 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartProject -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.justinbett.restful_booker_demo.HelloWorld@57a78e3]" started-at="2024-07-26T15:10:32 EDT" name="cleanup" finished-at="2024-07-26T15:10:32 EDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.justinbett.restful_booker_demo.HelloWorld -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

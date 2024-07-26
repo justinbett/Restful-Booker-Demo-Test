@@ -25,7 +25,7 @@ public class BasePage {
 		prop = new Properties();
 		FileInputStream data = new FileInputStream(
 				System.getProperty("user.dir") +
-				"\\src\\main\\java\\resources\\config.properties");
+				"//src//main//java//resources//config.properties");
 		prop.load(data);
 	}
 	

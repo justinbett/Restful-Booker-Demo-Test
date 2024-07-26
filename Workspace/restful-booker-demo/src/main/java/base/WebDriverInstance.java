@@ -32,17 +32,17 @@ public class WebDriverInstance {
 		Properties prop = new Properties();
 		FileInputStream data = new FileInputStream(
 				System.getProperty("user.dir") + 
-				"\\src\\main\\java\\resources\\config.properties");
+				"//src//main//java//resources//config.properties");
 		prop.load(data);
 		
 		if (prop.getProperty("browser").equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//drivers//chromedriver");
 			driver = new ChromeDriver();
 		} else if (prop.getProperty("browser").equals("firefox")) {
-			System.setProperty("webdriver.geko.driver", System.getProperty("user.dir") + "\\drivers\\gekodriver.exe");
+			System.setProperty("webdriver.geko.driver", System.getProperty("user.dir") + "//drivers//gekodriver.exe");
 			driver = new FirefoxDriver();
 		} else if (prop.getProperty("browser").equals("edge")) {
-			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "\\drivers\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "//drivers//msedgedriver.exe");
 			driver = new EdgeDriver();
 		}
 		
