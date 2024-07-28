@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunManager">
+    <configuration name="HelloWorldTest.HelloWorldTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Restful-Booker-Demo-Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HelloWorldTest" />
+      <option name="METHOD_NAME" value="HelloWorldTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HelloWorldTest.HelloWorldTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>
