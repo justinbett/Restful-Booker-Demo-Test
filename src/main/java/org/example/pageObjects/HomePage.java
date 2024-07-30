@@ -11,25 +11,32 @@ public class HomePage extends BasePage {
 
     public WebDriver driver;
 
-    By username = By.cssSelector("input#user-name");
-    By password = By.cssSelector("input#password");
-    By loginBtn = By.cssSelector("input#login-button");
-
     public HomePage() throws IOException {
         this.driver = getDriver();
     }
 
-    public WebElement getUsername() {
-        return driver.findElement(username);
+    By addItem1 = By.cssSelector("button#add-to-cart-sauce-labs-backpack");
+    By addItem2 = By.cssSelector("button#add-to-cart-sauce-labs-bike-light");
+    By addItem3 = By.cssSelector("button#add-to-cart-sauce-labs-bolt-t-shirt");
+    By shoppingCart = By.cssSelector("div#shopping_cart_container > .shopping_cart_link");
+
+
+    public WebElement getAddItem1() {
+        return driver.findElement(addItem1);
     }
 
-    public WebElement getPassword() {
-        return driver.findElement(password);
+    public WebElement getAddItem2() {
+        return driver.findElement(addItem2);
     }
 
-    public WebElement getLoginBtn() {
-        return driver.findElement(loginBtn);
+    public WebElement getAddItem3() {
+        return driver.findElement(addItem3);
     }
+
+    public WebElement getShoppingCart() {
+        return driver.findElement(shoppingCart);
+    }
+
 
 
 }

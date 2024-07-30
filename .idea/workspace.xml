@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ebf67cb-c4ea-46e9-950b-1817ab10cbe5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CheckoutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pageObjects/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/PracticeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PracticeTest.class" afterDir="false" />
     </list>
@@ -19,6 +18,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
