@@ -1,7 +1,7 @@
 # eCommerce-Demo-Test-2
 ![Selenium][selenium-badge]
 ![JDK][jdk-ver]
-![Eclipse][eclipse]
+![IntelliJ][intellij]
 ![Jenkins][jenkins]
 
 ## Description:
@@ -18,4 +18,6 @@ TBA
 [jdk-ver]: https://img.shields.io/badge/Java-orange?style=for-the-badge&logoColor=white
 [eclipse]: https://img.shields.io/badge/Eclipse-purple?style=for-the-badge&logo=eclipseide&labelColor=%232C2255&color=%232C2255
 [jenkins]: https://img.shields.io/badge/Jenkins-orange?style=for-the-badge&logo=jenkins&logoColor=white&labelColor=%23D24939&color=%23D24939
+[intellij]: https://img.shields.io/badge/IntelliJ-ff005e?style=for-the-badge&logo=intellijidea&labelColor=ff005e
+
 
