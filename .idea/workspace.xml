@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ebf67cb-c4ea-46e9-950b-1817ab10cbe5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HelloWorldTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PracticeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PracticeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +36,43 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.ClickTest.HelloWorld.executor": "Run",
     "TestNG.ClickTest.executor": "Run",
     "TestNG.HelloWorldTest.HelloWorldTest1.executor": "Run",
     "TestNG.HelloWorldTest.executor": "Run",
+    "TestNG.PracticeTest.ClickTest.executor": "Run",
     "TestNG.PracticeTest.executor": "Run",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/justin/Desktop/eCommerce-Demo-Test-2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.34252873",
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
   <component name="RunManager" selected="TestNG.PracticeTest">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="eCommerce-Demo-Test-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="eCommerce-Demo-Test-2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Restful-Booker-Demo-Test" />
+      <module name="eCommerce-Demo-Test-2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClickTest" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -53,7 +83,7 @@
       </method>
     </configuration>
     <configuration name="ClickTest.HelloWorldTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Restful-Booker-Demo-Test" />
+      <module name="eCommerce-Demo-Test-2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClickTest" />
       <option name="METHOD_NAME" value="HelloWorldTest" />
@@ -65,7 +95,7 @@
       </method>
     </configuration>
     <configuration name="HelloWorldTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Restful-Booker-Demo-Test" />
+      <module name="eCommerce-Demo-Test-2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HelloWorldTest" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -75,20 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldTest.HelloWorldTest1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Restful-Booker-Demo-Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloWorldTest" />
-      <option name="METHOD_NAME" value="HelloWorldTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PracticeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Restful-Booker-Demo-Test" />
+      <module name="eCommerce-Demo-Test-2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PracticeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -98,13 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PracticeTest.ClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eCommerce-Demo-Test-2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PracticeTest" />
+      <option name="METHOD_NAME" value="ClickTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PracticeTest" />
+        <item itemvalue="TestNG.PracticeTest.ClickTest" />
         <item itemvalue="TestNG.ClickTest" />
         <item itemvalue="TestNG.ClickTest.HelloWorldTest" />
         <item itemvalue="TestNG.HelloWorldTest" />
-        <item itemvalue="TestNG.HelloWorldTest.HelloWorldTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -118,5 +148,22 @@
       <updated>1722192751741</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

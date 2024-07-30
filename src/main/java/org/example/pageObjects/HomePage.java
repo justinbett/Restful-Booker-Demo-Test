@@ -11,13 +11,25 @@ public class HomePage extends BasePage {
 
     public WebDriver driver;
 
-    By bookRoom1 = By.cssSelector("div:nth-of-type(4) > div > .hotel-room-info.row  .btn.btn-outline-primary.float-right");
+    By username = By.cssSelector("input#user-name");
+    By password = By.cssSelector("input#password");
+    By loginBtn = By.cssSelector("input#login-button");
 
     public HomePage() throws IOException {
         this.driver = getDriver();
     }
 
-    public WebElement getBookRoom1() {
-        return driver.findElement(bookRoom1);
+    public WebElement getUsername() {
+        return driver.findElement(username);
     }
+
+    public WebElement getPassword() {
+        return driver.findElement(password);
+    }
+
+    public WebElement getLoginBtn() {
+        return driver.findElement(loginBtn);
+    }
+
+
 }

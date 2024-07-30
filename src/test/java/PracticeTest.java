@@ -7,21 +7,30 @@ import java.io.IOException;
 
 @Listeners(org.example.resources.Listeners.class)
 public class PracticeTest extends Hooks {
+    static HomePage homePage;
+
+    static {
+        try {
+            homePage = new HomePage();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     public PracticeTest() throws IOException {
         super();
     }
 
     @Test
-    public static void HelloWorldTest() {
-        System.out.println("Hello World!");
+    public static void Login() {
+        homePage.getUsername().sendKeys("standard_user");
+        homePage.getPassword().sendKeys("secret_sauce");
+        homePage.getLoginBtn().click();
+        System.out.println("Logged In");
     }
 
-    @Test
-    public static void ClickTest() throws IOException {
-        HomePage homePage = new HomePage();
-        homePage.getBookRoom1().click();
-        System.out.println("Book Room 1: Click");
+    @Test (dependsOnMethods = {"Login"})
+    public static void AddToCart() {
+        System.out.println("Add items to cart");
     }
-
 }
