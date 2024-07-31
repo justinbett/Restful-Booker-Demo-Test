@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ebf67cb-c4ea-46e9-950b-1817ab10cbe5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckoutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pageObjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PracticeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PracticeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PracticeTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +44,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CheckoutTest.executor": "Run",
     "TestNG.ClickTest.HelloWorld.executor": "Run",
     "TestNG.ClickTest.executor": "Run",
     "TestNG.HelloWorldTest.HelloWorldTest1.executor": "Run",
@@ -63,7 +60,7 @@
     "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.PracticeTest">
+  <component name="RunManager" selected="TestNG.CheckoutTest">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="eCommerce-Demo-Test-2" />
       <method v="2">
@@ -73,6 +70,17 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="eCommerce-Demo-Test-2" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eCommerce-Demo-Test-2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckoutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,17 +102,6 @@
       <option name="MAIN_CLASS_NAME" value="ClickTest" />
       <option name="METHOD_NAME" value="HelloWorldTest" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorldTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eCommerce-Demo-Test-2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloWorldTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckoutTest" />
         <item itemvalue="TestNG.PracticeTest" />
         <item itemvalue="TestNG.PracticeTest.ClickTest" />
         <item itemvalue="TestNG.ClickTest" />
         <item itemvalue="TestNG.ClickTest.HelloWorldTest" />
-        <item itemvalue="TestNG.HelloWorldTest" />
       </list>
     </recent_temporary>
   </component>

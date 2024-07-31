@@ -2,6 +2,7 @@ import org.example.base.Hooks;
 import org.example.pageObjects.CheckoutPage;
 import org.example.pageObjects.HomePage;
 import org.example.pageObjects.LoginPage;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -49,7 +50,15 @@ public class CheckoutTest extends Hooks {
     @Test (dependsOnMethods = {"AddItemsToCart"})
     public static void Checkout() throws InterruptedException {
         checkoutPage.getCheckoutBtn().click();
+        checkoutPage.getFirstName().sendKeys("John");
+        checkoutPage.getLastName().sendKeys("Smith");
+        checkoutPage.getPostalCode().sendKeys("12345");
+        checkoutPage.getContinueBtn().click();
+        Assert.assertEquals("Total: $60.45", checkoutPage.getTotal().getText());
+        System.out.println(checkoutPage.getTotal().getText());
+        checkoutPage.getFinishBtn().click();
 
         Thread.sleep(5000);
     }
+
 }

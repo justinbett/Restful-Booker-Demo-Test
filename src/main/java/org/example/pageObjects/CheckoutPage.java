@@ -16,9 +16,44 @@ public class CheckoutPage extends BasePage {
     }
 
     By checkoutBtn = By.cssSelector("button#checkout");
+    By firstName = By.cssSelector("input#first-name");
+    By lastName = By.cssSelector("input#last-name");
+    By postalCode = By.cssSelector("input#postal-code");
+    By continueBtn = By.cssSelector("input#continue");
+    By cancelBtn = By.cssSelector("button#cancel");
+    By total = By.cssSelector(".summary_total_label");
+    By finishBtn = By.cssSelector("button#finish");
 
     public WebElement getCheckoutBtn() {
         return driver.findElement(checkoutBtn);
+    }
+
+    public WebElement getFirstName() {
+        return driver.findElement(firstName);
+    }
+
+    public WebElement getLastName() {
+        return driver.findElement(lastName);
+    }
+
+    public WebElement getPostalCode() {
+        return driver.findElement(postalCode);
+    }
+
+    public WebElement getContinueBtn() {
+        return driver.findElement(continueBtn);
+    }
+
+    public WebElement getCancelBtn() {
+        return driver.findElement(cancelBtn);
+    }
+
+    public WebElement getTotal() {
+        return driver.findElement(total);
+    }
+
+    public WebElement getFinishBtn() {
+        return driver.findElement(finishBtn);
     }
 
 }
