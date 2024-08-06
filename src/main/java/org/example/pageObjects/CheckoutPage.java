@@ -16,6 +16,7 @@ public class CheckoutPage extends BasePage {
     }
 
     By checkoutBtn = By.cssSelector("button#checkout");
+    By removeItem3 = By.cssSelector("button#remove-sauce-labs-bolt-t-shirt");
     By firstName = By.cssSelector("input#first-name");
     By lastName = By.cssSelector("input#last-name");
     By postalCode = By.cssSelector("input#postal-code");
@@ -26,6 +27,10 @@ public class CheckoutPage extends BasePage {
 
     public WebElement getCheckoutBtn() {
         return driver.findElement(checkoutBtn);
+    }
+
+    public WebElement getRemoveItem3() {
+        return driver.findElement(removeItem3);
     }
 
     public WebElement getFirstName() {

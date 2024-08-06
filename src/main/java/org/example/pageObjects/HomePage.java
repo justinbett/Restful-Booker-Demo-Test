@@ -15,11 +15,20 @@ public class HomePage extends BasePage {
         this.driver = getDriver();
     }
 
+    By menu = By.cssSelector("button#react-burger-menu-btn");
+    By logout = By.cssSelector("a#logout_sidebar_link");
     By addItem1 = By.cssSelector("button#add-to-cart-sauce-labs-backpack");
     By addItem2 = By.cssSelector("button#add-to-cart-sauce-labs-bike-light");
     By addItem3 = By.cssSelector("button#add-to-cart-sauce-labs-bolt-t-shirt");
     By shoppingCart = By.cssSelector("div#shopping_cart_container > .shopping_cart_link");
 
+    public WebElement getMenu() {
+        return driver.findElement(menu);
+    }
+
+    public WebElement getLogout() {
+        return driver.findElement(logout);
+    }
 
     public WebElement getAddItem1() {
         return driver.findElement(addItem1);

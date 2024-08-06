@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ebf67cb-c4ea-46e9-950b-1817ab10cbe5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ErrorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObjects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CheckoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PracticeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pageObjects/CheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pageObjects/CheckoutPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckoutTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,50 +34,43 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2jt3sCd2o4qnhTKKRp7zzaX32XL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.CheckoutTest.executor": "Run",
-    "TestNG.ClickTest.HelloWorld.executor": "Run",
-    "TestNG.ClickTest.executor": "Run",
-    "TestNG.HelloWorldTest.HelloWorldTest1.executor": "Run",
-    "TestNG.HelloWorldTest.executor": "Run",
-    "TestNG.PracticeTest.ClickTest.executor": "Run",
-    "TestNG.PracticeTest.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/justin/Desktop/eCommerce-Demo-Test-2",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.34252873",
-    "settings.editor.selected.configurable": "build.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.CheckoutTest.Login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.ReLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ClickTest.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ClickTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ErrorTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HelloWorldTest.HelloWorldTest1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HelloWorldTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PracticeTest.ClickTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PracticeTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/justin/Desktop/eCommerce-Demo-Test-2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34252873&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.CheckoutTest">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="eCommerce-Demo-Test-2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="eCommerce-Demo-Test-2" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="TestNG.ErrorTest">
     <configuration name="CheckoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eCommerce-Demo-Test-2" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,23 +82,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckoutTest.Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eCommerce-Demo-Test-2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClickTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="CheckoutTest" />
+      <option name="METHOD_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClickTest.HelloWorldTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckoutTest.ReLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eCommerce-Demo-Test-2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClickTest" />
-      <option name="METHOD_NAME" value="HelloWorldTest" />
+      <option name="MAIN_CLASS_NAME" value="CheckoutTest" />
+      <option name="METHOD_NAME" value="ReLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErrorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eCommerce-Demo-Test-2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ErrorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -119,25 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTest.ClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eCommerce-Demo-Test-2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PracticeTest" />
-      <option name="METHOD_NAME" value="ClickTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ErrorTest" />
         <item itemvalue="TestNG.CheckoutTest" />
+        <item itemvalue="TestNG.CheckoutTest.Login" />
+        <item itemvalue="TestNG.CheckoutTest.ReLogin" />
         <item itemvalue="TestNG.PracticeTest" />
-        <item itemvalue="TestNG.PracticeTest.ClickTest" />
-        <item itemvalue="TestNG.ClickTest" />
-        <item itemvalue="TestNG.ClickTest.HelloWorldTest" />
       </list>
     </recent_temporary>
   </component>
